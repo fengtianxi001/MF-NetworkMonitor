@@ -1,0 +1,24 @@
+@font-face {
+  font-family: DengJuGengShaHeiTi;
+  src: url(../fonts/DengJuGengShaHeiTi.woff2);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Tencent;
+  src: url(../fonts/Tencent.woff);
+  font-weight: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Tencent;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
