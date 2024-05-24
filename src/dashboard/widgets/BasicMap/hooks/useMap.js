@@ -265,7 +265,7 @@ export function useMap() {
       plane.position.set(item.position[0], item.position[1], 0.22)
       scene.value.add(plane)
       const fontLoader = new FontLoader()
-      fontLoader.load('/fonts/jinshanyun.json', (font) => {
+      fontLoader.load('./fonts/jinshanyun.json', (font) => {
         const textGeometry = new TextGeometry(item.name, {
           font: font,
           size: 0.1, // 将文本大小缩小10倍

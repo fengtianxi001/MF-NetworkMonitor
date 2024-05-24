@@ -8,7 +8,7 @@ import { useMap } from './hooks/useMap'
 const { container, scene, bootstrap } = useMap()
 onMounted(() => {
   bootstrap({
-    geojsons: ['/geojson/350000.json'],
+    geojsons: [`${import.meta.env.VITE_BASE_URL}/geojson/350000.json`],
   })
 })
 </script>
